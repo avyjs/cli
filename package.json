@@ -1,0 +1,20 @@
+{
+  "name": "@avyjs/cli",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "src/index.ts",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.8.2"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "bin": {
+    "avy": "./bin/index.js"
+  }
+}
